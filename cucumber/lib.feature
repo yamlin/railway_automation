@@ -4,18 +4,7 @@ Feature: Running Cucumber with Protractor
   to run my E2E tests
 
 
-#  @dev
-#  Scenario: Wrapping WebDriver
-#    Given I go on "https://www.google.com/"
-#    Then it should have a title "Google"
-#
-#    Scenairo: Test rail system
-#    Given I go on "http://railway.hinet.net/"
-#    Then I fill in the data
-  
-
-@dev 
-  Scenario: Test Yahoo Login
+  Scenario: Test Railway Booking
     Given I go on "http://railway.hinet.net/ctno1.htm"
     Given user id "A123456789"
     Given from "144"
