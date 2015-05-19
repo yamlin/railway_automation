@@ -5,7 +5,7 @@ Feature: Running Cucumber with Protractor
 
   Scenario: Test Railway Booking
     Given I go on "http://railway.hinet.net/ctno1.htm"
-    Given user id "L123163993"
+    Given user id "A123456789"
     Given from "146"
     Given to "098"
     Given getin date from config
